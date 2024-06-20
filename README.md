@@ -13,7 +13,30 @@ trend of the stock market price based on the training data. This
 information can be used to make informed decisions about when to 
 buy or sell stocks, based on the predicted future price of the stock
 
-References:
+# Installation
+
+Clone the repository:
+  
+```bash
+git clone https://github.com/kreutzi/Stock-Market-Prediction-Project.git
+cd Stock-Market-Prediction-Project
+```
+
+Install the required dependencies:
+
+```bash
+pip install numpy pandas matplotlib scikit-learn keras
+```
+# Usage
+
+Ensure that the training and test datasets are placed in the Data directory.
+Run the main script:
+
+```bash
+python Project.py
+```
+
+# References:
 - Simplilearn. "Stock Price Prediction Using Machine Learning."[LINK](https://www.simplilearn.com/tutorials/machine-learning-tutorial/stock-price-prediction-using-machine-learning)
 - Brownlee, J. (2017). Long Short-Term Memory Networks with Python. Machine Learning Mastery.[LINK](https://machinelearningmastery.com/lstms-with-python/)
 - Zhang, Y., & Zheng, Z. (2021). Stock price prediction using long short-term memory (LSTM) neural network. Physica A: Statistical Mechanics and its Applications, 581, 126139. [LINK](https://www.sciencedirect.com/science/article/pii/S0378437121000336)
